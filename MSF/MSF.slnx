@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../MSF.UI/MSF.UI.csproj" />
+  <Project Path="MSF.csproj" />
+</Solution>
