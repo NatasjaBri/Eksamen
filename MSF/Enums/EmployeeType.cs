@@ -4,7 +4,9 @@ using System.Text;
 
 namespace MSF.Enums
 {
-    internal class EmployeeType
+    public enum EmployeeType
     {
+        Kitchen Staff,
+        Cashier
     }
 }
