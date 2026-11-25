@@ -4,7 +4,11 @@ using System.Text;
 
 namespace MSF.Enums
 {
-    internal class ProteinType
+    // This enum represents the different types of proteins available for an order.
+    public enum ProteinType
     {
+       Chicken,
+       Kebab,
+       Falafel,
     }
 }

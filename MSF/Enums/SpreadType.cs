@@ -4,7 +4,10 @@ using System.Text;
 
 namespace MSF.Enums
 {
-    internal class SpreadType
+    // This enum represents the different types of spreads available for an order.
+    public enum SpreadType
     {
+        Hummus,
+        Chilimayo
     }
 }

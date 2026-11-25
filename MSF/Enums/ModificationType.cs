@@ -4,7 +4,10 @@ using System.Text;
 
 namespace MSF.Enums
 {
-    internal class ModificationType
+    // This enum represents the different types of modifications that can be made to an order.
+    public enum ModificationType
     {
+        Remove,
+        Extra
     }
 }
