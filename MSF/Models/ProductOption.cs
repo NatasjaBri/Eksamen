@@ -1,10 +1,13 @@
-﻿using System;
+﻿using MSF.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MSF.Models
 {
-    internal class ProductOption
-    {
-    }
+	public class ProductOption
+	{
+		public ProteinType ProteinType { get; set; }
+		public SpreadType SpreadType { get; set; }
+	}
 }

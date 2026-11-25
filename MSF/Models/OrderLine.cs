@@ -4,7 +4,10 @@ using System.Text;
 
 namespace MSF.Models
 {
-    internal class OrderLine
-    {
-    }
+	public class OrderLine
+	{
+		public int Quantity { get; set; }
+
+		public decimal LinePrice { get; set; }
+	}
 }
