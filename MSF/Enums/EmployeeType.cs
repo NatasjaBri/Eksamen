@@ -4,9 +4,11 @@ using System.Text;
 
 namespace MSF.Enums
 {
+    // This enum represents the different types of employees in the system.
     public enum EmployeeType
     {
         Kitchen Staff,
-        Cashier
+        Cashier,
+        Administrator
     }
 }
